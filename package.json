@@ -1,0 +1,14 @@
+{
+    "name": "jag-cordova-hooks-plugin",
+    "version": "0.0.1",
+    "description": "Logs the context on each of the cordova hooks events",
+    "cordova": {
+        "id": "jag-cordova-hooks-plugin",
+        "platforms": []
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "joao.goncalves@outsystems.com",
+    "license": "MIT"
+}

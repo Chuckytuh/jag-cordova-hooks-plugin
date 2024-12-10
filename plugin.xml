@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="jag-cordova-hooks-plugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>jag-cordova-hooks-plugin</name>
+    <hook type="before_platform_add" src="hooks/before_platform_add.js" />
+    <hook type="after_platform_add" src="hooks/after_platform_add.js" />
+    <hook type="before_platform_rm" src="hooks/before_platform_rm.js" />
+    <hook type="after_platform_rm" src="hooks/after_platform_rm.js" />
+    <hook type="before_platform_ls" src="hooks/before_platform_ls.js" />
+    <hook type="after_platform_ls" src="hooks/after_platform_ls.js" />
+    <hook type="before_prepare" src="hooks/before_prepare.js" />
+    <hook type="after_prepare" src="hooks/after_prepare.js" />
+    <hook type="before_compile" src="hooks/before_compile.js" />
+    <hook type="after_compile" src="hooks/after_compile.js" />
+    <hook type="before_deploy" src="hooks/before_deploy.js" />
+    <hook type="before_build" src="hooks/before_build.js" />
+    <hook type="after_build" src="hooks/after_build.js" />
+    <hook type="before_emulate" src="hooks/before_emulate.js" />
+    <hook type="after_emulate" src="hooks/after_emulate.js" />
+    <hook type="before_run" src="hooks/before_run.js" />
+    <hook type="after_run" src="hooks/after_run.js" />
+    <hook type="before_serve" src="hooks/before_serve.js" />
+    <hook type="after_serve" src="hooks/after_serve.js" />
+    <hook type="before_clean" src="hooks/before_clean.js" />
+    <hook type="after_clean" src="hooks/after_clean.js" />
+    <hook type="before_plugin_add" src="hooks/before_plugin_add.js" />
+    <hook type="after_plugin_add" src="hooks/after_plugin_add.js" />
+    <hook type="before_plugin_rm" src="hooks/before_plugin_rm.js" />
+    <hook type="after_plugin_rm" src="hooks/after_plugin_rm.js" />
+    <hook type="before_plugin_ls" src="hooks/before_plugin_ls.js" />
+    <hook type="after_plugin_ls" src="hooks/after_plugin_ls.js" />
+    <hook type="before_plugin_install" src="hooks/before_plugin_install.js" />
+    <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
+    <hook type="before_plugin_uninstall" src="hooks/before_plugin_uninstall.js" />
+</plugin>
