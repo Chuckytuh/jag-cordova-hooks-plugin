@@ -1,14 +1,22 @@
 {
-    "name": "jag-cordova-hooks-plugin",
-    "version": "0.0.1",
-    "description": "Logs the context on each of the cordova hooks events",
-    "cordova": {
-        "id": "jag-cordova-hooks-plugin",
-        "platforms": []
-    },
-    "keywords": [
-        "ecosystem:cordova"
-    ],
-    "author": "joao.goncalves@outsystems.com",
-    "license": "MIT"
+  "name": "jag-cordova-hooks-plugin",
+  "version": "0.0.1",
+  "description": "Logs the context on each of the cordova hooks events",
+  "cordova": {
+    "id": "jag-cordova-hooks-plugin",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "joao.goncalves@outsystems.com",
+  "license": "MIT",
+  "scripts": {
+    "capacitor:copy:before": "echo copy before $CAPACITOR_PLATFORM_NAME",
+    "capacitor:copy:after": "echo copy after $CAPACITOR_PLATFORM_NAME",
+    "capacitor:update:before": "echo update before $CAPACITOR_PLATFORM_NAME",
+    "capacitor:update:after": "echo update after $CAPACITOR_PLATFORM_NAME",
+    "capacitor:sync:before": "echo sync before $CAPACITOR_PLATFORM_NAME",
+    "capacitor:sync:after": "echo sync after $CAPACITOR_PLATFORM_NAME"
+  }
 }
