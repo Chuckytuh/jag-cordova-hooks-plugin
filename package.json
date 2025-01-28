@@ -18,5 +18,9 @@
     "capacitor:update:after": "echo update after $CAPACITOR_PLATFORM_NAME",
     "capacitor:sync:before": "echo sync before $CAPACITOR_PLATFORM_NAME",
     "capacitor:sync:after": "echo sync after $CAPACITOR_PLATFORM_NAME"
-  }
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^6.0.0"
+  },
+  "capacitor": {}
 }
