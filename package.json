@@ -20,7 +20,7 @@
     "capacitor:sync:after": "echo sync after $CAPACITOR_PLATFORM_NAME"
   },
   "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/core": ">=7.0.0"
   },
   "capacitor": {}
 }
