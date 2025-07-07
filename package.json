@@ -18,5 +18,8 @@
     "capacitor:update:after": "echo update after $CAPACITOR_PLATFORM_NAME",
     "capacitor:sync:before": "echo sync before $CAPACITOR_PLATFORM_NAME",
     "capacitor:sync:after": "echo sync after $CAPACITOR_PLATFORM_NAME"
+  },
+  "dependencies": {
+    "outsystems-build-actions": "github:Chuckytuh/outsystems-build-actions"
   }
 }
