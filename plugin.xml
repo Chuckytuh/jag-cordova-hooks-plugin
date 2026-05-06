@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin id="jag-cordova-hooks-plugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="jag-cordova-hooks-plugin" version="0.0.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>jag-cordova-hooks-plugin</name>
     <hook type="before_platform_add" src="hooks/before_platform_add.js" />
     <hook type="after_platform_add" src="hooks/after_platform_add.js" />

@@ -1,6 +1,6 @@
 {
   "name": "jag-cordova-hooks-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logs the context on each of the cordova hooks events",
   "cordova": {
     "id": "jag-cordova-hooks-plugin",
@@ -12,6 +12,7 @@
   "author": "joao.goncalves@outsystems.com",
   "license": "MIT",
   "scripts": {
+    "postinstall": "node scripts/postinstall.js",
     "capacitor:copy:before": "echo copy before $CAPACITOR_PLATFORM_NAME",
     "capacitor:copy:after": "echo copy after $CAPACITOR_PLATFORM_NAME",
     "capacitor:update:before": "echo update before $CAPACITOR_PLATFORM_NAME",
